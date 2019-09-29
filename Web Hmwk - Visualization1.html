@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" style="color:white" href="Web Hmwk.html">Latitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Web Hmwk - Visualization1.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Web Hmwk - Visualization2.html">Humidity</a>
+                        <a class="dropdown-item" href="Web Hmwk - Visualization3.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Web Hmwk - Visualization4.html">Windspeed</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Web Hmwk - Comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Web Hmwk - Data.html">Data</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+  
+<div class="container">
+  <div class="row">
+    <!--First Column in this Row-->
+    <div class="col-md-8">
+      <div class="box1">
+        <h1>Max Temperature</h1>
+        <hr>
+        <img class="thirdimage" src="Resources\assets\images\Fig1.png" alt="Fig1">
+        <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere.  This may be due to the tilt of the earth at the time of the  year this data was gathered</p>
+
+      </div>
+    </div>        
+    <!--Second Column in this Row-->
+    <div class="col-md-4">
+      <div class="box">
+        <h1>Visualizations</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="Web Hmwk - Visualization1.html">
+              <img class="secondimage" src="Resources\assets\images\Fig1.png" alt="Fig1">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="Web Hmwk - Visualization2.html">
+              <img class="secondimage" src="Resources\assets\images\Fig2.png" alt="Fig2">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="Web Hmwk - Visualization3.html">
+              <img class="secondimage" src="Resources\assets\images\Fig3.png" alt="Fig3">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="Web Hmwk - Visualization4.html">
+              <img class="secondimage" src="Resources\assets\images\Fig4.png" alt="Fig4">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>Copyright Coding Bootcamp 2019</footer>
+
+</body>
